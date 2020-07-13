@@ -1,0 +1,43 @@
+.wrapper_home{
+
+}
+
+#home_info{
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+
+#name{
+  color: var(--honey-yellow-colour);
+  font-size: 3rem;
+  padding-bottom: 5%;
+}
+
+#title{
+  color: var(--dull-gold-colour);
+  font-size: 2rem;
+  padding-bottom: 5%;
+}
+
+
+.nav_option{
+  padding: 10px;
+}
+
+.nav_option:hover {
+  color: var(--dull-gold-colour);
+}
+
+#effect{
+  display: none;
+  color: var(--dull-gold-colour);
+}
+
+.nav_option:hover #effect{
+  display: inline;
+}
+

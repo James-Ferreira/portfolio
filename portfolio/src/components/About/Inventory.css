@@ -1,0 +1,134 @@
+#wrapper_inventory{
+  width: 75%;
+  display: flex;
+
+  background-color: var(--dark-brown-colour);
+  border-color: var(--dark-slate-colour);
+  border-width: 0 15px 15px 0;
+  border-style: solid;
+
+  margin: 6% auto 1.5% auto;
+  padding: 1%;
+}
+
+#wrapper_inventory div {
+  text-align: center;
+  border: 5px inset var(--dull-gold-colour);
+}
+
+/** PROFILE **/
+
+.profile_slot{
+  width: 25%!important;
+  background-color:var(--dark-slate-colour);
+  padding: 10px;
+  margin: 5px;
+}
+
+.profile_slot:hover{
+  background-color: var(--dull-gold-colour)!important;
+  transition: background-color 0.2s linear;
+  cursor: pointer;
+}
+  
+.profile_slot .grid_item{
+  width: auto!important;
+  height: auto!important;
+  background-color: none!important;
+  border: none!important;
+}
+/** GRID **/
+
+.grid_container {
+  display: grid;
+  max-width: 40%;
+
+  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--mid-slate-colour);
+  margin: 5px;
+}
+
+.grid_item{
+  padding: 10px;
+  height: 128px;
+  width: 128px;
+  border: 5px outset var(--dull-gold-colour)!important;
+}
+
+.grid_item:hover{
+  background-color: var(--lavender-colour)!important;
+  transition: background-color 0.2s linear;
+  cursor: pointer;
+}
+
+
+/** INFO PANE **/
+#item_description_pane {
+  width: 40%;
+  background-color: var(--parchment-colour);
+  color: var(--dark-slate-colour);
+  margin: 5px;
+}
+
+#item_desc_title{
+  border: 5px outset var(--dull-gold-colour)!important;
+  background-color: var(--dull-gold-colour);
+  font-size: 1.75rem;
+  color: var(--light-yellow-colour);
+  padding: 0.75rem;
+}
+
+#item_desc_container{
+  width: 85%;
+  height: 25vh;
+  border: none!important;
+}
+
+#item_desc_container li{
+  width: 100%;
+  text-align: left;
+  font-size: 1.25vw;
+  padding-left: 0;
+  padding-top: 0.75rem;
+  border-bottom: 2px dashed var(--dull-gold-colour);
+}
+
+
+/* BREAK POINTS */
+
+@media (max-width: 1092px){
+
+  #wrapper_inventory{
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 10% auto;
+  
+  }
+  
+  /** PROFILE **/
+  
+  .profile_slot{
+    max-width: 40%;
+  }
+  
+  
+  /** GRID **/
+
+  .grid_item{
+    border-width: 3px!important;
+  }
+    
+  /** INFO PANE **/
+  #item_description_pane {
+    width: 86%;
+
+  }
+  
+ 
+  #item_desc_container li{
+    font-size: 1rem;
+  }
+
+ 
+}

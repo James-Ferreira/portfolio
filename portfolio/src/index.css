@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'KarmaFuture';
+  src: local('KarmaFuture'), url(./fonts/KarmaFuture.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'InputMono';
+  src: local('InputMono'), url(./fonts/InputMono-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'VcrMono';
+  src: local('VcrMono'), url(./fonts/VcrMono.ttf) format('truetype');
+}

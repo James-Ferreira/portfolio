@@ -1,38 +1,139 @@
+/* COLOUR PALETTE
+  NAV_BAR = dark-brown-grey
+  HOME= = dark-slate-colour
+
+*/
+
+/* COLOUR PALETTE VARIABLES */
+:root{
+  --dark-brown-grey-colour: #302b29;
+  --dark-brown-colour: #41250a; /* used in branch img */
+  --light-brown-colour: #5b3714; /* used in branch img */
+
+  --dark-slate-colour: #303030;
+  --mid-slate-colour: #3d3d3d;
+  --light-slate-colour: #4e4e4e;
+  --lightest-slate-colour: #7b7b7b;
+
+  --honey-yellow-colour: #b8902a;
+  --dull-gold-colour: #6f5e32;
+  --light-yellow-colour: #ffd15c; /* used in branch title img */
+  --parchment-colour: #b3ae8f;
+
+  --lavender-colour: #534b54;
+}
+
+/* GENERAL */
 .App {
-  text-align: center;
+  font-family: InputMono;
+  cursor: default;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+  font-size: 100%;
+  background-color: var(--light-slate-colour);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+em {
+  color: var(--light-yellow-colour);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a{
+  text-decoration: none;
+  color: var(--lightest-slate-colour);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--honey-yellow-colour);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--lightest-slate-colour);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--dull-gold-colour);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--lavender-colour);
+}
+
+/* PAGES */
+.page{
+  padding-top:1%;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  
+}
+
+#app-home-wrapper{
+  background-color: var(--mid-slate-colour);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 95vh;
+  border-bottom: 30px solid transparent;
+  border-image: url("./images/home-dither-border.png") 33% repeat;
+  overflow: visible;
 }
 
-.App-link {
-  color: #61dafb;
+#app-nav-wrapper{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 300;
+
+  /* DITHER EFFECT */
+  border-bottom: 30px solid transparent;
+  border-image: url("./images/dither-border.png") 33% repeat;
+  overflow: visible;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* IMAGES */
+
+.wrapper_left_branch{
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.wrapper_right_branch{
+  position: absolute;
+  right: 0;
+
+}
+
+
+/* BREAK POINTS */
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px){
+  .page{
+    
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
+}
+
+
+/* Medium devices (Landscape Tablets, 992px and up) */
+@media (max-width: 768px){
+
 }

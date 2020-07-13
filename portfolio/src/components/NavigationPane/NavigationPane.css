@@ -1,0 +1,35 @@
+#wrapper_nav{
+  width: 100%;
+
+  background-color: var(--dark-slate-colour);
+  
+
+} 
+
+
+#wrapper_nav div {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.25rem;
+  margin: 0 10px 0 10px;
+}
+
+#nav_image_links{
+  max-width: 25%;
+}
+
+#nav_image_links img{
+  max-width: 32px;
+  margin-right: 10px;
+}
+
+#nav_text_links a{
+  margin-right: 32px;
+}
+
+
+
+
+/* BREAK POINTS */
+
+
