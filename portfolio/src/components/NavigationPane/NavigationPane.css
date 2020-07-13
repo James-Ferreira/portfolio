@@ -6,16 +6,11 @@
 
 } 
 
-
 #wrapper_nav div {
   display: inline-block;
   vertical-align: middle;
   font-size: 1.25rem;
   margin: 0 10px 0 10px;
-}
-
-#nav_image_links{
-  max-width: 25%;
 }
 
 #nav_image_links img{

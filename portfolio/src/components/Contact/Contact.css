@@ -1,0 +1,22 @@
+#wrapper_contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactArea{
+    margin-top: 2em;
+    font-size: 3rem;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navIcon{
+    text-decoration: none;
+    color: var(--dark-slate-colour);
+  }
+  
+.navIcon:hover {
+    color: var(--dull-gold-colour);
+  }

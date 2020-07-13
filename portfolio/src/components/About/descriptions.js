@@ -94,7 +94,7 @@ const awards_desc = [
         <li>Dean’s Commendation of Academic Excellence <em>2019</em></li>
         <li>QCAA Certificate of Academic Commendation <em>2016</em></li>
         <li>OP 2 <em>2016</em></li>
-        <li>Academic Honours (Straight A's) <em>2016</em></li>
+        <li>Academic Honours <em>2016</em></li>
         <li>Top Student: IT <em>2016</em></li>
         <li>Top Student: Philosophy <em>2016</em></li>
     </ul>

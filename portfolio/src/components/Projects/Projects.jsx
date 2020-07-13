@@ -1,10 +1,8 @@
 import React, {Component} from 'react'
 import './Projects.css'
-import GridElement from '../GridElement'
-
-
+import ProjectCard from './ProjectCard'
 import project_descriptions from './project_descriptions'
-
+import book from "../../images/pixel-book.png"
 
 export default class Projects extends Component {
 
@@ -25,41 +23,16 @@ export default class Projects extends Component {
         = "var(--lavender-colour)";
     }
 
-
-    createProjectGrid(){
-        let array = []
-        
-        // Outer loop to create parent
-        let cell = 0;
-        for (let i = 0; i < 3; i++) { //cols
-          //Inner loop to create children
-          for (let j = 0; j < 2; j++) { //rows
-            array.push(
-                    <GridElement
-                        info={this.state.images[cell]}
-                        onClick={this.onClick}
-                    />)
-                cell++;
-          }
-        }
-        return array;
-    }
-
     render(){
         return (
             <div id="wrapper_projects">
 
-                <div class="projectCard">
-                    {project_descriptions[0]}
-                </div>
+                <ProjectCard {...project_descriptions[0]} />
 
-                <div class="projectCard">
-                    {project_descriptions[1]}
-                </div>
+                <ProjectCard {...project_descriptions[1]} />
 
-                <div class="projectCard">
-                    {project_descriptions[2]}
-                </div>
+                <ProjectCard {...project_descriptions[2]} />
+
             </div>
     )
     }

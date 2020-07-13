@@ -25,13 +25,13 @@ export default class Home extends Component {
                         </a>
 
 
-                        <a class="nav_option">
+                        <a href="/#projects" class="nav_option">
                             <span id ="effect">- </span>
                                 PROJECTS
                             <span id="effect"> -</span>
                         </a>
 
-                        <a class="nav_option">
+                        <a href="/#contact" class="nav_option">
                             <span id ="effect">- </span>
                                 CONTACT
                             <span id="effect"> -</span>

@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
 import './NavigationPane.css'
 import logo from "../../images/Bumble-Logo.png"
-import LinkedIn from "../../images/LinkedIn-Logo.png"
-import GitHub from "../../images/GitHub-Logo.png"
-import Dither from "../../images/dither_tile.png"
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default class NavigationPane extends Component {
     render(){
@@ -14,18 +12,6 @@ export default class NavigationPane extends Component {
 
                     <div id ="nav_logo">
                         <a href=""><img src= {logo}/></a>
-                    </div>
-
-                    <div id = "nav_image_links">
-                        <a target="_blank"  
-                        href = "https://github.com/James-Ferreira">
-                                        <img src={GitHub}/>
-                        </a>
-
-                        <a target="_blank" 
-                        href = "https://www.linkedin.com/in/james-ferreira-a14505164/">
-                            <img src={LinkedIn}/>
-                        </a>
                     </div>
 
                     <div id ="nav_text_links">

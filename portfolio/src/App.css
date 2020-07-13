@@ -47,10 +47,10 @@ img {
 a{
   text-decoration: none;
   color: var(--lightest-slate-colour);
+  transition: 0.3s;
 }
 
 a:hover {
-  text-decoration: none;
   color: var(--honey-yellow-colour);
 }
 

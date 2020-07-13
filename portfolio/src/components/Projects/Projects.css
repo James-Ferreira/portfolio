@@ -1,24 +1,61 @@
 #wrapper_projects{
-    margin-top: 7%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: InputMono;
 }
 
 .projectCard {
-  border-radius: 5px;
+  border-radius: 3em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 50%;
-  background: grey;
+  width: 60%;
+  background: var(--parchment-colour);
   margin: 1%;
-  padding: 5px;
+  padding: 2%;
+  display: flex;
 }
 
 .projectCard:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.titleArea{
+  border-right: 2px solid var(--lavender-colour);
+  text-align: center;
+  flex-basis: 20%;
+}
+
+.bodyArea{
+  padding: 0.8em;
+  flex-basis: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.kwArea{
+  flex-basis: 20%;
+}
+
+.kwArea li{
+  display: inline-block;
+  margin-right: 2%;
+  padding: 0.5em;
+  list-style-type: none;
+  background-color: var(--lightest-slate-colour);
+  border-radius: .8em;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+}
+
+.descArea{
+  flex-basis: 60%;
+}
+
+.actionArea{
+  flex-basis: 20%;
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (max-width: 1092px){

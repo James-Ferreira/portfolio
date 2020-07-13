@@ -7,13 +7,15 @@
   border-width: 0 15px 15px 0;
   border-style: solid;
 
-  margin: 6% auto 1.5% auto;
+  margin: 7em auto 2em auto;
   padding: 1%;
+
+  font-family: InputMono;
 }
 
 #wrapper_inventory div {
   text-align: center;
-  border: 5px inset var(--dull-gold-colour);
+  border: 0.2em inset var(--dull-gold-colour);
 }
 
 /** PROFILE **/
@@ -91,6 +93,7 @@
   padding-left: 0;
   padding-top: 0.75rem;
   border-bottom: 2px dashed var(--dull-gold-colour);
+  list-style-type: none;
 }
 
 
