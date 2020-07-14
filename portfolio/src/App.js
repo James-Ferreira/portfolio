@@ -18,7 +18,7 @@ function App() {
               <img class="branch" src={pixel_projects}/>
           </div>
           <div class="page" id="app-projects-wrapper" id="projects"><Projects /></div>  
-          <div class="page" id="app-projects-wrapper" id="projects"><Contact /></div>  
+          <div class="page" id="app-projects-wrapper" id="contact"><Contact /></div>  
 
       </div>
     </div>    

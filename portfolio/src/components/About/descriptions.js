@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const reading_desc = [
     <ul>
         <li>The Restaurant at the End of the Universe</li>
@@ -102,26 +101,22 @@ const awards_desc = [
 
 const about_desc = [
     <ul>
-            <li><em>4th Year</em> UQ Engineering Student</li>
+            <li>4th Year Engineering Student</li>
             <li>Software Extended Major</li>
             <li>Brisbane-based</li>
-            <li><em>GPA:</em> 6.22</li>
-            <li><em>Course Completion:</em> 38/60 units</li>
+            <li>GPA: 6.22</li>
+            <li>Course Completion: 38/60 units</li>
     </ul>
 ]
 
-
-
-
 const item_descriptions = [
     reading_desc,
-    skills_desc,
+    learning_desc,
     music_desc,
 
     work_desc,
     languages_desc,
-    learning_desc,
-
+    skills_desc,
     awards_desc,
     hobbies_desc,
     academic_desc,

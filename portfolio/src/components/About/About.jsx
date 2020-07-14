@@ -1,11 +1,7 @@
 import React, {Component} from 'react'
 import './About.css'
 import Inventory from './Inventory'
-
-
 import pixel_about from "../../images/pixel-about.png"
-import pixel_branch from "../../images/pixel-branch.png"
-import pixel_projects from "../../images/pixel-projects.png"
 
 export default class About extends Component {
     render(){

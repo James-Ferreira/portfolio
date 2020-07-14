@@ -1,75 +1,66 @@
 #wrapper_inventory{
   width: 75%;
   display: flex;
-
-  background-color: var(--dark-brown-colour);
-  border-color: var(--dark-slate-colour);
-  border-width: 0 15px 15px 0;
-  border-style: solid;
-
+  /*background-color: var(--dark-brown-colour);*/
+  font-family: VcrMono;
   margin: 7em auto 2em auto;
   padding: 1%;
-
-  font-family: InputMono;
 }
 
 #wrapper_inventory div {
   text-align: center;
-  border: 0.2em inset var(--dull-gold-colour);
+  /*border: 0.2em inset var(--dull-gold-colour); */
 }
 
 /** PROFILE **/
 
 .profile_slot{
   width: 25%!important;
-  background-color:var(--dark-slate-colour);
-  padding: 10px;
-  margin: 5px;
+  background-color:var(--mid-slate-colour);
+  padding: 0.2em;
+  margin: 0.5em;
+  border: 1em solid transparent;
+  border-image: url(../../images/border.png) 25% repeat;
 }
 
-.profile_slot:hover{
-  background-color: var(--dull-gold-colour)!important;
-  transition: background-color 0.2s linear;
-  cursor: pointer;
+#profile_stats li{
+  width: 100%;
+  text-align: left;
+  font-size: 1em;
+  padding-left: 0;
+  list-style-type: none;
 }
-  
-.profile_slot .grid_item{
-  width: auto!important;
-  height: auto!important;
-  background-color: none!important;
-  border: none!important;
-}
+
 /** GRID **/
-
 .grid_container {
   display: grid;
   max-width: 40%;
-
+  padding: 0.8em;
   grid-template-columns: repeat(3, 1fr);
   background-color: var(--mid-slate-colour);
-  margin: 5px;
+  margin: 0.4em;
 }
 
 .grid_item{
-  padding: 10px;
-  height: 128px;
-  width: 128px;
-  border: 5px outset var(--dull-gold-colour)!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em;
+  border: 1em solid transparent;
+  border-image: url(../../images/border.png) 25% repeat;
 }
 
 .grid_item:hover{
-  background-color: var(--lavender-colour)!important;
-  transition: background-color 0.2s linear;
+  border-image-source: url(../../images/border-white.png);
   cursor: pointer;
 }
-
 
 /** INFO PANE **/
 #item_description_pane {
   width: 40%;
   background-color: var(--parchment-colour);
   color: var(--dark-slate-colour);
-  margin: 5px;
+  margin: 0.4em;
 }
 
 #item_desc_title{
