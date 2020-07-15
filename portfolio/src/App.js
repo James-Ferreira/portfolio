@@ -7,6 +7,7 @@ import About from './components/About/About'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 import pixel_projects from "./images/pixel-projects.png"
+import pixel_contact from "./images/pixel-contact.png"
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,9 @@ function App() {
               <img class="branch" src={pixel_projects}/>
           </div>
           <div class="page" id="app-projects-wrapper" id="projects"><Projects /></div>  
+          <div class ="wrapper_left_branch">
+                    <img class="branch" src={pixel_contact}/>
+          </div>
           <div class="page" id="app-projects-wrapper" id="contact"><Contact /></div>  
 
       </div>

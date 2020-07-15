@@ -11,9 +11,6 @@ export default class Contact extends Component {
     render(){
         return (
             <div id="wrapper_contact">
-                <div class ="wrapper_left_branch">
-                    <img class="branch" src={pixel_contact}/>
-                </div>
 
                 <div class="contactArea">
                     <a class="navIcon" target="_blank"  

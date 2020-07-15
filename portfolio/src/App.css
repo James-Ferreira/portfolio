@@ -30,7 +30,7 @@
 }
 
 html{
-  font-size: 100%;
+  font-size: 1rem;
   background-color: var(--light-slate-colour);
 }
 
@@ -41,7 +41,15 @@ em {
 img {
   max-width: 100%;
   height: auto;
-  vertical-align: middle;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 a{
@@ -76,39 +84,36 @@ a:hover {
 
 /* PAGES */
 .page{
-  padding-top:1%;
-  padding-left: 5vh;
-  padding-right: 5vh;
-  
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #app-home-wrapper{
   background-color: var(--mid-slate-colour);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 95vh;
-  border-bottom: 30px solid transparent;
+  border-bottom: 32px solid transparent;
   border-image: url("./images/home-dither-border.png") 33% repeat;
-  overflow: visible;
 }
 
 #app-nav-wrapper{
-  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   z-index: 300;
 
   /* DITHER EFFECT */
-  border-bottom: 30px solid transparent;
+  border-bottom: 24px solid transparent;
   border-image: url("./images/dither-border.png") 33% repeat;
   overflow: visible;
 
 }
 
+
 /* IMAGES */
 
 .wrapper_left_branch{
+  padding-top: 2.5rem;
   position: absolute;
   left: 0;
   width: 100%;
@@ -117,7 +122,6 @@ a:hover {
 .wrapper_right_branch{
   position: absolute;
   right: 0;
-
 }
 
 
