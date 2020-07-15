@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04da309871c246a008e793311a7c66df",
+    "revision": "4d8690dbb1cedf3d96238a5e04401347",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "d54dc2208d4225482dc0",
-    "url": "/portfolio/static/css/main.386cdb2a.chunk.css"
+    "revision": "3f8d736d5f27abe520d3",
+    "url": "/portfolio/static/css/main.bdde78cc.chunk.css"
   },
   {
-    "revision": "4552f4068afd588f0227",
-    "url": "/portfolio/static/js/2.a4b36a84.chunk.js"
+    "revision": "ce5bf8ff4f4051688d5c",
+    "url": "/portfolio/static/js/2.d124d0fb.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio/static/js/2.a4b36a84.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.d124d0fb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d54dc2208d4225482dc0",
-    "url": "/portfolio/static/js/main.f0fe5517.chunk.js"
+    "revision": "3f8d736d5f27abe520d3",
+    "url": "/portfolio/static/js/main.a62e58f7.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -44,6 +44,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/VcrMono.5fcd6c65.ttf"
   },
   {
+    "revision": "eac7e66cc4da3fc8aa5eeae17ea387b7",
+    "url": "/portfolio/static/media/border-test.eac7e66c.png"
+  },
+  {
+    "revision": "a1fa0f185dc60c8e116b8d6e91de7d92",
+    "url": "/portfolio/static/media/border-white.a1fa0f18.png"
+  },
+  {
+    "revision": "50fd189a3d554e71ed48f7f9941a74b9",
+    "url": "/portfolio/static/media/border.50fd189a.png"
+  },
+  {
     "revision": "d4eada3e07e6681126b75343c4657ec5",
     "url": "/portfolio/static/media/dither-border.d4eada3e.png"
   },
@@ -60,12 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/pixel-about.a5c3a813.png"
   },
   {
-    "revision": "479d46c85cc81bb9c01338e88f53fc81",
-    "url": "/portfolio/static/media/pixel-award.479d46c8.png"
-  },
-  {
-    "revision": "64dded8b9e93533e9401d4ea480804f7",
-    "url": "/portfolio/static/media/pixel-badge.64dded8b.png"
+    "revision": "f152e923e1c9f2e1ed00d47150be588f",
+    "url": "/portfolio/static/media/pixel-award.f152e923.png"
   },
   {
     "revision": "cac5b83c97846b5e07446afbb374a2e5",
@@ -84,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/pixel-glasses.c305b0b1.png"
   },
   {
-    "revision": "1c3abdee848eaea97bf4c044a59c74d2",
-    "url": "/portfolio/static/media/pixel-mug.1c3abdee.png"
+    "revision": "502671abb27ee9199717e35b271466e2",
+    "url": "/portfolio/static/media/pixel-mug.502671ab.png"
   },
   {
     "revision": "eee98215eb64423d15032cab8f4465fb",
@@ -104,8 +112,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/pixel-record.f7ef50b7.png"
   },
   {
-    "revision": "252cbe7a522d476d63f3d55f041779cb",
-    "url": "/portfolio/static/media/pixel-solder.252cbe7a.png"
+    "revision": "266712eedc7befe245fa90ce23f29b1f",
+    "url": "/portfolio/static/media/pixel-satchel.266712ee.png"
+  },
+  {
+    "revision": "61b7db8cd1a5441879c5376b39fe4202",
+    "url": "/portfolio/static/media/pixel-skates.61b7db8c.png"
   },
   {
     "revision": "e290c346d5eecb2c91058d738b5f9342",
