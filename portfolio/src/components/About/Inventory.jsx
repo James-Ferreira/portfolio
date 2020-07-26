@@ -20,9 +20,9 @@ export default class Inventory extends Component {
         super(props);
 
         const imagePaths = [
-            { id: "inv_0", src: book, title: 'Currently Reading', description: 'A book' },
-            { id: "inv_1", src: glasses, title: 'Currently Learning', description: 'A pair of glasses' },
-            { id: "inv_2", src: record_player, title: 'Currently Listening', description: 'A vinyl player' },
+            { id: "inv_0", src: book, title: 'Reading', description: 'A book' },
+            { id: "inv_1", src: glasses, title: 'Learning', description: 'A pair of glasses' },
+            { id: "inv_2", src: record_player, title: 'Listening', description: 'A vinyl player' },
             
             { id: "inv_3", src: satchel, title: 'Work History', description: 'a namebadge' },
             { id: "inv_4", src: mug, title: 'Languages', description: 'A mug' },
@@ -51,8 +51,7 @@ export default class Inventory extends Component {
         }
 
         this.setState({activeItemId: itemID});
-        document.getElementById(itemID).style.backgroundColor
-        = "var(--lavender-colour)";
+
     }
 
     createInventoryGrid(){
@@ -75,38 +74,31 @@ export default class Inventory extends Component {
         return array;
     }
 
-    
-
     render(){
 
         return (
 
             <div id = "wrapper_inventory">
-                <div class="profile_slot">
+                <div class="inventory_pane" id="profile_avatar">
                     <img src={pixel_profile}/>
-
-                    <div id ="profile_stats">
+                </div>
+                <div class="inventory_pane" id ="profile_stats">
                         <ul>
                             <li><em>Name:</em> James Ferreira</li>
                             <li><em>University:</em> UQ</li>
                             <li><em>Degree:</em> Engineering</li>
                             <li><em>Major:</em> Software</li>
-                            <li><em>GPA:</em> 6.22</li>
-                            <li><em>Health:</em> ...</li>
-                            <li><em>Sleep:</em> ...</li>
-                            <li><em>Caffeine:</em> ...</li>
+                            <li><em>GPA:</em> 6.33</li>
                         </ul>
                     </div>
-
-                </div>
                 
-                <div class="grid_container">
+                <div class="inventory_pane" id="grid_pane">
                     {this.createInventoryGrid()}
                 </div>
 
-                <div id="item_description_pane">
+                <div class="inventory_pane" id="item_description_pane">
                     <div id="item_desc_title">
-                        {this.state.images[this.state.activeItemId.slice(-1)].title}
+                        <span>{this.state.images[this.state.activeItemId.slice(-1)].title}</span>
                     </div>
 
                     <div id="item_desc_container">

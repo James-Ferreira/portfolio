@@ -1,25 +1,14 @@
 #wrapper_contact{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 85%;
-    height: 95vh;
-}
-
-.contactArea{
-    margin-top: 2em;
-    font-size: 3rem;
-    width: 40%;
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.75rem;
+  border: 1px solid red;
+  width: 60%;
 }
 
 .navIcon{
-    text-decoration: none;
-    color: var(--dark-slate-colour);
-  }
-  
-.navIcon:hover {
-    color: var(--dull-gold-colour);
-  }
+  padding: 10px;
+  margin: 2.5rem;
+  border: 1px solid blue;
+}

@@ -1,8 +1,10 @@
 import React from 'react'
 import book from "../../images/pixel-book.png"
+import lock from "../../images/pixel-lock.png"
+import dog from "../../images/pixel-dog.png"
 const topoguard_desc = {
     title: "TopoGuard++",
-    image: book,
+    image: lock,
     date: "2019",
     desc: 
         "The project focus was security vulnerabilities within \
@@ -23,7 +25,7 @@ const topoguard_desc = {
 
 const germinator_desc = {
     title: "Germinator",
-    image: book,
+    image: lock,
     date: "2018",
     desc:
         "In DECO2800, a development team of approximately 40-50 people\
@@ -38,7 +40,7 @@ const germinator_desc = {
 
 const dogchain_desc = {
     title: "BarkChain",
-    image: book,
+    image: lock,
     date: "2020",
     desc:
         "Implement a distributed ledger in which to record the lineage,\

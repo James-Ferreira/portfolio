@@ -101,11 +101,11 @@ const awards_desc = [
 
 const about_desc = [
     <ul>
-            <li>4th Year Engineering Student</li>
-            <li>Software Extended Major</li>
-            <li>Brisbane-based</li>
-            <li>GPA: 6.22</li>
-            <li>Course Completion: 38/60 units</li>
+        <li>4th Year Engineering Student</li>
+        <li>Software Extended Major</li>
+        <li>Brisbane-based</li>
+        <li>GPA: 6.22</li>
+        <li>Course Completion: 38/60 units</li>
     </ul>
 ]
 

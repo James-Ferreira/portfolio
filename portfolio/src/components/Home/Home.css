@@ -12,24 +12,23 @@
 
 
 #name{
-  color: var(--honey-yellow-colour);
+  color: var(--light-yellow-colour);
   font-size: 3rem;
   padding-bottom: 5%;
 }
 
 #title{
-  color: var(--dull-gold-colour);
+  color: var(--honey-yellow-colour);
   font-size: 2rem;
   padding-bottom: 5%;
 }
-
 
 .nav_option{
   padding: 10px;
 }
 
 .nav_option:hover {
-  color: var(--dull-gold-colour);
+  color: var(--light-yellow-colour);
 }
 
 #effect{

@@ -11,23 +11,21 @@ export default class Contact extends Component {
     render(){
         return (
             <div id="wrapper_contact">
+                <a class="navIcon" target="_blank"  
+                href = "https://github.com/James-Ferreira">
+                    <span>GitHub</span>
+                </a>
 
-                <div class="contactArea">
-                    <a class="navIcon" target="_blank"  
-                    href = "https://github.com/James-Ferreira">
-                        <FontAwesomeIcon icon={faGithub} size="2x"/>
-                    </a>
+                <a class="navIcon" target="_blank" 
+                href = "https://www.linkedin.com/in/james-ferreira-a14505164/">
+                    <span>LinkedIn</span>
+                </a>
 
-                    <a class="navIcon" target="_blank" 
-                    href = "https://www.linkedin.com/in/james-ferreira-a14505164/">
-                        <FontAwesomeIcon icon={faLinkedin} size="2x"/>
-                    </a>
+                <a class="navIcon" target="_blank" 
+                href = "https://www.linkedin.com/in/james-ferreira-a14505164/">
+                    <span>Email</span>
+                </a>
 
-                    <a class="navIcon" target="_blank" 
-                    href = "https://www.linkedin.com/in/james-ferreira-a14505164/">
-                        <FontAwesomeIcon icon={faEnvelope} size="2x"/>
-                    </a>
-                </div>
             </div>
     )
     }

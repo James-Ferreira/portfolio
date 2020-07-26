@@ -25,6 +25,10 @@ export default class ProjectCard extends Component {
                     <h3>{this.props.title}</h3>
                     <img src={this.props.image} />
                     <h4>{this.props.date}</h4>
+                    <div class="actionArea">
+                        <span>GitHub</span>
+                        <span>Paper</span>
+                    </div>
                 </div>
 
                 <div class="bodyArea">
@@ -37,9 +41,6 @@ export default class ProjectCard extends Component {
                         <p>{this.props.desc}</p>
                     </div>
 
-                    <div class="actionArea">
-                        GIT
-                    </div>
                 </div>
                 
             </div>
