@@ -1,31 +1,36 @@
 import React, {Component} from 'react'
 import './Contact.css'
-import LinkedIn from "../../images/LinkedIn-Logo.png"
-import GitHub from "../../images/GitHub-Logo.png"
-import pixel_contact from "../../images/pixel-contact.png"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import name from "../../images/card/pixel-name.png"
+import GitHub from "../../images/card/pixel-git.png"
+import Email from "../../images/card/pixel-email.png"
+import LinkedIn from "../../images/card/pixel-in.png"
+import addr from "../../images/card/pixel-addr.png"
+import scribble from "../../images/card/pixel-scribble.png"
 
 export default class Contact extends Component {
     render(){
         return (
             <div id="wrapper_contact">
-                <a class="navIcon" target="_blank"  
-                href = "https://github.com/James-Ferreira">
-                    <span>GitHub</span>
-                </a>
 
-                <a class="navIcon" target="_blank" 
-                href = "https://www.linkedin.com/in/james-ferreira-a14505164/">
-                    <span>LinkedIn</span>
-                </a>
+                <div id ="card_title">
+                    <img src={name}/>
+                </div>
 
-                <a class="navIcon" target="_blank" 
-                href = "https://www.linkedin.com/in/james-ferreira-a14505164/">
-                    <span>Email</span>
-                </a>
+                <div class="link_icon" id ="card_email">
+                    <img src={Email}/>
+                </div>
 
+                <div class="link_icon" id ="card_github">
+                    <img src={GitHub}/>
+                </div>
+                
+                <div class="link_icon" id ="card_linked">
+                    <img src={LinkedIn}/>
+                </div>
+
+                <div class="link_icon" id ="card_addr">
+                    <img src={addr}/>
+                </div>
             </div>
     )
     }

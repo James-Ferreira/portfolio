@@ -38,7 +38,7 @@ export default class Home extends Component {
                         </a>
 
                     <div id="home_logo">
-                        <div><img src={logo}/></div>
+                        <img src={logo}/>
                     </div>
                 </div>
 

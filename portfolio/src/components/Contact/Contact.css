@@ -1,14 +1,52 @@
 #wrapper_contact{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size: 1.75rem;
-  border: 1px solid red;
-  width: 60%;
+  display: grid;
+  width: 30%;
+  grid-template-columns: repeat(5, 20);
+  grid-template-rows:  repeat(5, auto);
+  row-gap: 2rem;
+  grid-template-areas: 
+    "header header header header header"
+    ". . . . ."
+    ". github email linked ."
+    ". . . . ."
+    "addr addr addr addr addr";
+  background-color: var(--parchment-colour);
+
+
+  border: 1rem solid transparent;
+  border-image: url(../../images/border-card.png) 30% 28% 40% 25%;
+  border-image-outset: 0.5rem;
 }
 
-.navIcon{
-  padding: 10px;
-  margin: 2.5rem;
-  border: 1px solid blue;
+#card_title{
+  grid-area: header;
+  background-color: var(--honey-yellow-colour);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+
+}
+
+#card_email{
+  grid-area: email;
+}
+
+#card_github{
+  grid-area: github;
+}
+
+.link_icon{
+  transition: all 1.5s linear;
+}
+.link_icon:hover{
+  filter: brightness(300%);
+}
+
+#card_linked{
+  grid-area: linked;
+}
+
+#card_addr{
+  grid-area: addr;
 }

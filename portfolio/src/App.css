@@ -20,7 +20,7 @@
   --light-yellow-colour: #ffd15c; /* used in branch title img */
   --parchment-colour: #b3ae8f;
 
-  --lavender-colour: #534b54;
+  --lavender-colour: #221f22;
 }
 
 /* GENERAL */
@@ -89,7 +89,6 @@ a:hover {
   justify-content: center;
   align-items: center;
   min-height: 95vh;
-
 }
 
 #app-home-wrapper{

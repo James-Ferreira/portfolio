@@ -6,8 +6,8 @@
   grid-template-areas: 
     "profile items info"
     "profile items info"
-    "stats items info"
-    "stats items info";
+    "profile items info"
+    "profile items info";
   ;
   font-family: VcrMono;
   font-size: 1.2rem;
@@ -32,7 +32,6 @@
 
 .inventory_pane li {
   text-align: left;
-  text-align: left;
   padding-top: 0.75rem;
   border-bottom: 2px dashed var(--dull-gold-colour);
 }
@@ -40,21 +39,25 @@
 /** PROFILE **/
 #profile_avatar{
   grid-area: profile;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #profile_avatar img{
-  max-width: 75%;
+  max-width: 85%;
 }
 
 #profile_stats{
-  grid-area: stats;
+
 }
 
 /** GRID **/
 #grid_pane {
   grid-area: items;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 33%);
 }
 
 .grid_item{
@@ -75,11 +78,13 @@
 /** INFO PANE **/
 #item_description_pane{
   grid-area: info;
+  font-size: 1rem;
 }
 
 #item_desc_title{
   color: var(--light-yellow-colour);
   background-color: var(--dull-gold-colour);
+  font-size: 1.5rem;
 }
 
 /* BREAK POINTS */
@@ -87,33 +92,56 @@
 @media (max-width: 1092px){
 
   #wrapper_inventory{
+    width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(3, 33%);
+    grid-template-areas: 
+      "items info"
+      "items info"
+      "items info";
+    border: 1px solid red;
+    font-size: 1rem;
   }
   
   /** PROFILE **/
   
-  #profile_pane{
+  #profile_avatar{
     display: none;
-  }
-  
-  
-/** PROFILE **/
-
+  } 
   /** GRID **/
- 
   .grid_item{
     margin: 0.5em;
     border: 8px solid transparent;
     border-image: url(../../images/border.png) 25% repeat;
   }
 
+  /** INFO PANE **/
+  #item_description_pane{
+    font-size: 1rem;
+  }
+}
 
+
+@media (max-width: 630px){
+  #wrapper_inventory{
+    width: 65%;
+    display: grid;
+    grid-template-areas: 
+    "info info"
+    "info info"
+    "info info";
+    border: 1px solid pink;
+    font-size: 0.75rem;
+  }
+  
+
+  #grid_pane{
+    display: none;
+  }
 
   /** INFO PANE **/
   #item_description_pane{
-    font-size: 0.2rem;
+    font-size: 0.8rem;
   }
-
- 
 }

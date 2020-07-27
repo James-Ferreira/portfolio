@@ -5,7 +5,6 @@
 #home_info{
   display: flex;
   flex-direction: column;
-
   text-align: center;
   font-size: 1.75rem;
 }
@@ -40,3 +39,8 @@
   display: inline;
 }
 
+
+#home_logo{
+  display: flex;
+  justify-content: space-evenly;
+}

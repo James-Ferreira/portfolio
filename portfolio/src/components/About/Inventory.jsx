@@ -81,8 +81,7 @@ export default class Inventory extends Component {
             <div id = "wrapper_inventory">
                 <div class="inventory_pane" id="profile_avatar">
                     <img src={pixel_profile}/>
-                </div>
-                <div class="inventory_pane" id ="profile_stats">
+                    <div id ="profile_stats">
                         <ul>
                             <li><em>Name:</em> James Ferreira</li>
                             <li><em>University:</em> UQ</li>
@@ -91,6 +90,7 @@ export default class Inventory extends Component {
                             <li><em>GPA:</em> 6.33</li>
                         </ul>
                     </div>
+                </div>
                 
                 <div class="inventory_pane" id="grid_pane">
                     {this.createInventoryGrid()}
