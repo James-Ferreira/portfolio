@@ -11,16 +11,16 @@
   --light-brown-colour: #5b3714; /* used in branch img */
 
   --dark-slate-colour: #303030;
-  --mid-slate-colour: #3d3d3d;
-  --light-slate-colour: #4e4e4e;
-  --lightest-slate-colour: #7b7b7b;
+  --mid-slate-colour: #4e4e4e;
+  --light-slate-colour: #7b7b7b;
+  --lightest-slate-colour: #bfbfbf;
 
   --honey-yellow-colour: #b8902a;
   --dull-gold-colour: #6f5e32;
   --light-yellow-colour: #ffd15c; /* used in branch title img */
-  --parchment-colour: #b3ae8f;
+  --parchment-colour: #efe2d0;
 
-  --lavender-colour: #221f22;
+  --lavender-colour: #887f99;
 }
 
 /* GENERAL */
@@ -31,7 +31,7 @@
 
 html{
   font-size: 1rem;
-  background-color: var(--light-slate-colour);
+  background-color: var(--mid-slate-colour);
 }
 
 em {
@@ -88,24 +88,33 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 95vh;
+  min-height:95vh;
 }
 
 #app-home-wrapper{
-  background-color: var(--mid-slate-colour);
-  border-bottom: 32px solid transparent;
-  border-image: url("./images/home-dither-border.png") 33% repeat;
+  background-color: var(--dark-slate-colour);
 }
 
 #app-nav-wrapper{
   position: sticky;
   top: 0;
   z-index: 300;
-  border-bottom: 24px solid transparent;
-  border-image: url("./images/dither-border.png") 35% repeat;
-  overflow: visible;
-
 }
+
+#about{
+  background-color: var(--mid-slate-colour);
+  z-index: 250;
+}
+
+#projects{
+  z-index: 200;
+  background-color: var(--light-slate-colour);
+}
+
+#contact{
+  background-color: var(--lightest-slate-colour);
+}
+
 
 
 /* IMAGES */
@@ -118,4 +127,28 @@ a:hover {
 .wrapper_right_branch{
   position: absolute;
   right: 0;
+}
+
+.dither{
+  width: 100%;
+  height: 32px;
+  background-image: url(./images/borders/dither_tile_dark.png);
+  background-repeat: repeat-x;
+  background-size: initial;
+}
+
+#nav-dither{
+  position: sticky;
+  top: 2.5rem;
+  z-index: 300;
+}
+
+#about-dither{
+  background-color: var(--light-slate-colour);
+  filter: contrast(65%);
+}
+
+#projects-dither{
+  background-color: var(--lightest-slate-colour)!important;
+  filter: contrast(35%) brightness(125%);
 }

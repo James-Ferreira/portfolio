@@ -18,7 +18,7 @@
   text-align: center;
   background-color: var(--parchment-colour);
   border: 1rem solid transparent;
-  border-image: url(../../images/border-paper.png) 25% repeat;
+  border-image: url(../../images/borders/border-paper.png) 25% repeat;
 
   border-image-outset: 0.5rem;
   padding: 0.2em;
@@ -49,8 +49,8 @@
   max-width: 85%;
 }
 
-#profile_stats{
-
+#profile_tags img{
+  padding-top: 0.75rem;
 }
 
 /** GRID **/
@@ -66,12 +66,12 @@
   align-items: center;
   margin: 0.5em;
   border: 16px solid transparent;
-  border-image: url(../../images/border.png) 25% repeat;
+  border-image: url(../../images/borders/item_border.png) 25% repeat;
   transition: all 0.1s;
 }
 
 .grid_item:hover{
-  border-image-source: url(../../images/border-hover.png);
+  border-image-source: url(../../images/borders/item_border_hover.png);
   cursor: pointer;
 }
 
@@ -113,7 +113,7 @@
   .grid_item{
     margin: 0.5em;
     border: 8px solid transparent;
-    border-image: url(../../images/border.png) 25% repeat;
+    border-image: url(../../images/borders/item_border.png) 25% repeat;
   }
 
   /** INFO PANE **/

@@ -1,7 +1,7 @@
 import React from 'react'
-import book from "../../images/pixel-book.png"
-import lock from "../../images/pixel-lock.png"
-import dog from "../../images/pixel-dog.png"
+
+import lock from "../../images/projects/pixel-lock.png"
+
 const topoguard_desc = {
     title: "TopoGuard++",
     image: lock,

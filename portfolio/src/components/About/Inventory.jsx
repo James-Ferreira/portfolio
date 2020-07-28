@@ -1,18 +1,22 @@
 import React, {Component} from 'react'
 import './Inventory.css'
 import GridElement from '../GridElement'
-
-import pixel_profile from "../../images/pixel-profile.png"
-import book from "../../images/pixel-book.png"
-import textbook from "../../images/pixel-textbook.png"
-import glasses from "../../images/pixel-glasses.png"
-import mug from "../../images/pixel-mug.png"
-import record_player from "../../images/pixel-record.png"
-import wasd from "../../images/pixel-wasd.png"
-import award from "../../images/pixel-award.png"
-import satchel from "../../images/pixel-satchel.png"
-import skates from "../../images/pixel-skates.png"
 import item_descriptions from "./descriptions"
+
+/* IMAGES */
+import pixel_profile from "../../images/inventory/pixel-profile.png"
+import book from "../../images/inventory/pixel-book.png"
+import textbook from "../../images/inventory/pixel-textbook.png"
+import glasses from "../../images/inventory/pixel-glasses.png"
+import mug from "../../images/inventory/pixel-mug.png"
+import record_player from "../../images/inventory/pixel-record.png"
+import wasd from "../../images/inventory/pixel-wasd.png"
+import award from "../../images/inventory/pixel-award.png"
+import satchel from "../../images/inventory/pixel-satchel.png"
+import skates from "../../images/inventory/pixel-skates.png"
+import name_tag from "../../images/inventory/name-tag.png"
+import gpa_tag from "../../images/inventory/gpa-tag.png"
+import uq_tag from "../../images/inventory/uq-tag.png"
 
 export default class Inventory extends Component {
 
@@ -81,14 +85,10 @@ export default class Inventory extends Component {
             <div id = "wrapper_inventory">
                 <div class="inventory_pane" id="profile_avatar">
                     <img src={pixel_profile}/>
-                    <div id ="profile_stats">
-                        <ul>
-                            <li><em>Name:</em> James Ferreira</li>
-                            <li><em>University:</em> UQ</li>
-                            <li><em>Degree:</em> Engineering</li>
-                            <li><em>Major:</em> Software</li>
-                            <li><em>GPA:</em> 6.33</li>
-                        </ul>
+                    <div id ="profile_tags">
+                        <img src={name_tag}/>
+                        <img src={gpa_tag}/>
+                        <img src={uq_tag}/>
                     </div>
                 </div>
                 

@@ -1,30 +1,34 @@
 #wrapper_contact{
   display: grid;
   width: 30%;
-  grid-template-columns: repeat(5, 20);
+  grid-template-columns: repeat(5, auto);
   grid-template-rows:  repeat(5, auto);
   row-gap: 2rem;
+  column-gap: 1.5rem;
   grid-template-areas: 
     "header header header header header"
     ". . . . ."
-    ". github email linked ."
+    ". email github linked ."
     ". . . . ."
-    "addr addr addr addr addr";
-  background-color: var(--parchment-colour);
-
-
+    "addr  addr addr addr addr";
+  background-color: #efe2d0;
   border: 1rem solid transparent;
-  border-image: url(../../images/border-card.png) 30% 28% 40% 25%;
+  border-image: url(../../images/borders/border-card2.png) 25% 25% 25% 25%;
   border-image-outset: 0.5rem;
+
 }
 
 #card_title{
   grid-area: header;
-  background-color: var(--honey-yellow-colour);
+  background-color: var(--light-yellow-colour);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
+  
+  border: 0.5rem solid transparent;
+  border-image: url(../../images/borders/border-card.png) 25% 25% 25% 25%;
+  border-image-outset: 0.5rem;
 
 }
 
@@ -34,13 +38,6 @@
 
 #card_github{
   grid-area: github;
-}
-
-.link_icon{
-  transition: all 1.5s linear;
-}
-.link_icon:hover{
-  filter: brightness(300%);
 }
 
 #card_linked{

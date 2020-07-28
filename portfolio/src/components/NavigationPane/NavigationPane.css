@@ -1,28 +1,15 @@
 #wrapper_nav{
-  width: 100%;
   font-family: VcrMono;
   background-color: var(--dark-slate-colour);
+  padding: 0.5rem;
 } 
 
 #wrapper_nav div {
   display: inline-block;
   vertical-align: middle;
   font-size: 1.25rem;
-  margin: 0 10px 0 10px;
-}
-
-#nav_image_links img{
-  max-width: 32px;
-  margin-right: 10px;
 }
 
 #nav_text_links a{
-  margin-right: 32px;
+  margin-right: 1.5rem;
 }
-
-
-
-
-/* BREAK POINTS */
-
-
