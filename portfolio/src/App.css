@@ -67,7 +67,7 @@ a:hover {
 
 #app-home-wrapper{
   background-color: var(--dark-slate-colour);
-  min-height: 60em;
+  min-height: 65em;
 }
 
 #app-nav-wrapper{
@@ -116,7 +116,7 @@ a:hover {
 #nav-dither{
   position: sticky;
   background-image: url(./images/borders/dither_tile_dark.png);
-  top: 2.5rem;
+  top: 1.5rem;
   z-index: 300;
 }
 
@@ -132,6 +132,11 @@ a:hover {
 
 
 @media (max-width: 730px){
+
+  #app-home-wrapper{
+    min-height: 55rem;
+  }
+
 
   #contact{
     min-height: 30rem;

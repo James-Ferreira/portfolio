@@ -1,15 +1,15 @@
 #wrapper_nav{
   font-family: VcrMono;
   background-color: var(--dark-slate-colour);
-  padding: 0.5rem;
+  padding: 0.25rem;
 } 
 
 #wrapper_nav div {
   display: inline-block;
   vertical-align: middle;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 #nav_text_links a{
-  margin-right: 1.5rem;
+  margin-left: 1rem;
 }

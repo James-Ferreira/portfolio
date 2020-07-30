@@ -56,7 +56,7 @@ const wanderlist_desc = {
         </ul>],
     repo: "",
     report: "",
-    keywords: ["Agile", "Game"],
+    keywords: ["Design", "Mobile Application"],
 }
 
 const dogchain_desc = {
