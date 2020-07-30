@@ -93,6 +93,7 @@ a:hover {
 
 #app-home-wrapper{
   background-color: var(--dark-slate-colour);
+  min-height: 100vh;
 }
 
 #app-nav-wrapper{
@@ -131,14 +132,15 @@ a:hover {
 
 .dither{
   width: 100%;
-  height: 32px;
-  background-image: url(./images/borders/dither_tile_dark.png);
+  height: 64px;
+  background-image: url(./images/borders/dither_tile_test.png);
   background-repeat: repeat-x;
   background-size: initial;
 }
 
 #nav-dither{
   position: sticky;
+  background-image: url(./images/borders/dither_tile_dark.png);
   top: 2.5rem;
   z-index: 300;
 }

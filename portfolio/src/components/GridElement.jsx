@@ -17,7 +17,6 @@ export default class GridElement extends Component {
             <div class="grid_item" id={this.props.info.id}
                 onClick={this.handleClick}>
                 <img
-                    id={this.props.info.id}
                     class="grid_image"
                     src={this.props.info.src}
                     title={this.props.info.title}

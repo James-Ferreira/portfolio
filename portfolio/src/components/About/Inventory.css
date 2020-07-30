@@ -67,7 +67,7 @@
   margin: 0.5em;
   border: 16px solid transparent;
   border-image: url(../../images/borders/item_border.png) 25% repeat;
-  transition: all 0.1s;
+  transition: all 0.25s;
 }
 
 .grid_item:hover{
@@ -87,6 +87,22 @@
   font-size: 1.5rem;
 }
 
+#item_next_button{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#item_next_button img{
+  width: 25%;
+  transition: all 0.8s;
+}
+
+#item_next_button img:hover{
+  filter: hue-rotate(180deg);
+  cursor: pointer;
+}
+
 /* BREAK POINTS */
 
 @media (max-width: 1092px){
@@ -100,8 +116,6 @@
       "items info"
       "items info"
       "items info";
-    border: 1px solid red;
-    font-size: 1rem;
   }
   
   /** PROFILE **/
@@ -109,39 +123,55 @@
   #profile_avatar{
     display: none;
   } 
-  /** GRID **/
-  .grid_item{
-    margin: 0.5em;
-    border: 8px solid transparent;
-    border-image: url(../../images/borders/item_border.png) 25% repeat;
-  }
-
-  /** INFO PANE **/
-  #item_description_pane{
-    font-size: 1rem;
-  }
 }
 
 
-@media (max-width: 630px){
+@media (max-width: 730px){
+
   #wrapper_inventory{
-    width: 65%;
+    width: 100%;
+    height: 75vh;
     display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: repeat(9, auto);
     grid-template-areas: 
-    "info info"
-    "info info"
-    "info info";
-    border: 1px solid pink;
-    font-size: 0.75rem;
+      "items items info info"
+      "items items info info"
+      "items items info info"
+      "items items info info"
+      "items items info info"
+      "items items info info"
+      "items items info info"
+      "items items info info"
+      "items items info info";
+  }
+
+  .inventory_pane{
+    border-image-outset: 0.25rem;
+    padding:0;
+    margin: 0.5em;
   }
   
-
-  #grid_pane{
+  /** PROFILE **/
+  
+  #profile_avatar{
     display: none;
+  } 
+
+  /** GRID **/
+  #grid_pane {
+    grid-area: items;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(5, auto);
   }
 
-  /** INFO PANE **/
-  #item_description_pane{
-    font-size: 0.8rem;
+  .grid_item{
+
+    width: 50%;
+  }
+
+  .grid_image{
+ 
   }
 }

@@ -24,22 +24,22 @@ export default class Inventory extends Component {
         super(props);
 
         const imagePaths = [
-            { id: "inv_0", src: book, title: 'Reading', description: 'A book' },
-            { id: "inv_1", src: glasses, title: 'Learning', description: 'A pair of glasses' },
-            { id: "inv_2", src: record_player, title: 'Listening', description: 'A vinyl player' },
+            { id: 0, src: book, title: 'Reading', description: 'A book' },
+            { id: 1, src: glasses, title: 'Learning', description: 'A pair of glasses' },
+            { id: 2, src: record_player, title: 'Listening', description: 'A vinyl player' },
             
-            { id: "inv_3", src: satchel, title: 'Work History', description: 'a namebadge' },
-            { id: "inv_4", src: mug, title: 'Languages', description: 'A mug' },
-            { id: "inv_5", src: wasd, title: 'Software Skills', description: 'wasd keys' },
+            { id: 3, src: satchel, title: 'Work History', description: 'a namebadge' },
+            { id: 4, src: mug, title: 'Languages', description: 'A mug' },
+            { id: 5, src: wasd, title: 'Software Skills', description: 'wasd keys' },
 
-            { id: "inv_6", src: award, title: 'Awards', description: 'An award' },
-            { id: "inv_7", src: skates, title: 'Hobbies', description: 'A soldering iron' },
-            { id: "inv_8", src: textbook, title: 'Academic Interests', description: 'A textbook' },
+            { id: 6, src: award, title: 'Awards', description: 'An award' },
+            { id: 7, src: skates, title: 'Hobbies', description: 'A soldering iron' },
+            { id: 8, src: textbook, title: 'Academic Interests', description: 'A textbook' },
           ];
 
         this.state = {
-            activeItemId: "inv_0",
-            prevItemId: "inv_0",
+            activeItemId: 0,
+            prevItemId: 0,
             images: imagePaths
         };
 
@@ -54,8 +54,19 @@ export default class Inventory extends Component {
             = 'transparent'
         }
 
-        this.setState({activeItemId: itemID});
+        var newID = 0;
+        if (itemID == -1){
+            newID = 8;
+        } else if(itemID == 9){
+            newID = 0;
+        } else {
+            newID = itemID;
+        }
 
+        document.getElementById(newID).style.backgroundColor
+        = '#e6ccff';
+        
+        this.setState({activeItemId: newID});
     }
 
     createInventoryGrid(){
@@ -98,11 +109,17 @@ export default class Inventory extends Component {
 
                 <div class="inventory_pane" id="item_description_pane">
                     <div id="item_desc_title">
-                        <span>{this.state.images[this.state.activeItemId.slice(-1)].title}</span>
+                        <span>{this.state.images[this.state.activeItemId].title}</span>
+
+                    </div>
+
+                    <div id="item_next_button">
+                        <img onClick={() => this.onClick(this.state.activeItemId - 1)} id="prev" src={gpa_tag}/>
+                        <img onClick={() => this.onClick(this.state.activeItemId + 1)} id="prev" src={gpa_tag}/>
                     </div>
 
                     <div id="item_desc_container">
-                        {item_descriptions[this.state.activeItemId.slice(-1)]}
+                        {item_descriptions[this.state.activeItemId]}
                     </div>
                 </div>
 
