@@ -1,9 +1,9 @@
 #wrapper_contact{
+  margin: 1rem;
   display: grid;
-  width: 30%;
   grid-template-columns: repeat(5, auto);
   grid-template-rows:  repeat(5, auto);
-  row-gap: 2rem;
+  row-gap: 1.5rem;
   column-gap: 1.5rem;
   grid-template-areas: 
     "header header header header header"
@@ -11,6 +11,7 @@
     ". email github linked ."
     ". . . . ."
     "addr  addr addr addr addr";
+    
   background-color: #efe2d0;
   border: 1rem solid transparent;
   border-image: url(../../images/borders/border-card2.png) 25% 25% 25% 25%;

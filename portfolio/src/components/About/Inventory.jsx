@@ -17,6 +17,8 @@ import skates from "../../images/inventory/pixel-skates.png"
 import name_tag from "../../images/inventory/name-tag.png"
 import gpa_tag from "../../images/inventory/gpa-tag.png"
 import uq_tag from "../../images/inventory/uq-tag.png"
+import prev_tag from "../../images/inventory/prev-tag.png"
+import next_tag from "../../images/inventory/next-tag.png"
 
 export default class Inventory extends Component {
 
@@ -64,7 +66,7 @@ export default class Inventory extends Component {
         }
 
         document.getElementById(newID).style.backgroundColor
-        = '#e6ccff';
+        = '#cebba1';
         
         this.setState({activeItemId: newID});
     }
@@ -114,8 +116,8 @@ export default class Inventory extends Component {
                     </div>
 
                     <div id="item_next_button">
-                        <img onClick={() => this.onClick(this.state.activeItemId - 1)} id="prev" src={gpa_tag}/>
-                        <img onClick={() => this.onClick(this.state.activeItemId + 1)} id="prev" src={gpa_tag}/>
+                        <img onClick={() => this.onClick(this.state.activeItemId - 1)} id="prev" src={prev_tag}/>
+                        <img onClick={() => this.onClick(this.state.activeItemId + 1)} id="prev" src={next_tag}/>
                     </div>
 
                     <div id="item_desc_container">

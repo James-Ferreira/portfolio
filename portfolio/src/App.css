@@ -1,9 +1,3 @@
-/* COLOUR PALETTE
-  NAV_BAR = dark-brown-grey
-  HOME= = dark-slate-colour
-
-*/
-
 /* COLOUR PALETTE VARIABLES */
 :root{
   --dark-brown-grey-colour: #302b29;
@@ -63,37 +57,17 @@ a:hover {
   color: var(--honey-yellow-colour);
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 15px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: var(--lightest-slate-colour);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--dull-gold-colour);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--lavender-colour);
-}
-
 /* PAGES */
 .page{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height:95vh;
+  min-height:55rem;
 }
 
 #app-home-wrapper{
   background-color: var(--dark-slate-colour);
-  min-height: 100vh;
+  min-height: 60em;
 }
 
 #app-nav-wrapper{
@@ -122,6 +96,7 @@ a:hover {
 
 .wrapper_left_branch{
   position: absolute;
+  margin-top: 2rem;
   left: 0;
 }
 
@@ -153,4 +128,13 @@ a:hover {
 #projects-dither{
   background-color: var(--lightest-slate-colour)!important;
   filter: contrast(35%) brightness(125%);
+}
+
+
+@media (max-width: 730px){
+
+  #contact{
+    min-height: 30rem;
+  }
+  
 }

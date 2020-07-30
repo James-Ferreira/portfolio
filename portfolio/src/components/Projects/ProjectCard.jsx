@@ -25,9 +25,10 @@ export default class ProjectCard extends Component {
                     <h3>{this.props.title}</h3>
                     <img src={this.props.image} />
                     <h4>{this.props.date}</h4>
-                    <div class="actionArea">
-                        <span>GitHub</span>
-                        <span>Paper</span>
+
+                <div class="actionArea">
+                    {this.props.repo && (<a href={this.props.repo} target="_blank">github</a>)}
+                    {this.props.paper && (<a href={this.props.paper} target="_blank">paper</a>)}
                     </div>
                 </div>
 

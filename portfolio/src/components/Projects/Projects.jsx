@@ -14,11 +14,9 @@ export default class Projects extends Component {
         return (
             <div id="wrapper_projects">
 
-                <ProjectCard {...project_descriptions[0]} />
-
-                <ProjectCard {...project_descriptions[1]} />
-
-                <ProjectCard {...project_descriptions[2]} />
+                {project_descriptions.map((item,i) => 
+                    <ProjectCard {...project_descriptions[i]} />
+                )}
 
             </div>
     )
