@@ -97,11 +97,11 @@ export default class Inventory extends Component {
 
             <div id = "wrapper_inventory">
                 <div class="inventory_pane" id="profile_avatar">
-                    <img src={pixel_profile}/>
+                    <img draggable="false" src={pixel_profile}/>
                     <div id ="profile_tags">
-                        <img src={name_tag}/>
-                        <img src={gpa_tag}/>
-                        <img src={uq_tag}/>
+                        <img draggable="false" src={name_tag}/>
+                        <img draggable="false" src={gpa_tag}/>
+                        <img draggable="false" src={uq_tag}/>
                     </div>
                 </div>
                 

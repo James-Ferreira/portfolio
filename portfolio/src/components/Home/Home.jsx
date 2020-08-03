@@ -14,20 +14,20 @@ export default class Home extends Component {
                     <span id="name">JAMES FERREIRA</span>
                     <span id="title">SOFTWARE ENGINEER</span>
 
-                        <a href="/#about" class="nav_option">
+                        <a href="/portfolio/#about" class="nav_option">
                             <span id ="effect">- </span>
                                 ABOUT
                             <span id="effect"> -</span>
                         </a>
 
 
-                        <a href="/#projects" class="nav_option">
+                        <a href="/portfolio/#projects" class="nav_option">
                             <span id ="effect">- </span>
                                 PROJECTS
                             <span id="effect"> -</span>
                         </a>
 
-                        <a href="/#contact" class="nav_option">
+                        <a href="/portfolio/#contact" class="nav_option">
                             <span id ="effect">- </span>
                                 CONTACT
                             <span id="effect"> -</span>

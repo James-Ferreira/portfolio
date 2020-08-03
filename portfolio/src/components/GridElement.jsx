@@ -21,6 +21,7 @@ export default class GridElement extends Component {
                     src={this.props.info.src}
                     title={this.props.info.title}
                     description={this.props.info.description}
+                    draggable="false"
                 />
             </div>
         );

@@ -12,7 +12,7 @@
     ". . . . ."
     "addr  addr addr addr addr";
     
-  background-color: #efe2d0;
+  background-color: var(--dark-slate-colour);
   border: 1rem solid transparent;
   border-image: url(../../images/borders/border-card2.png) 25% 25% 25% 25%;
   border-image-outset: 0.5rem;
@@ -47,4 +47,8 @@
 
 #card_addr{
   grid-area: addr;
+}
+
+.link_icon:hover{
+  filter: hue-rotate(190deg);
 }

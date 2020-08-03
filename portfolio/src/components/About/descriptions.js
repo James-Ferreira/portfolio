@@ -2,24 +2,23 @@ import React from 'react'
 
 const reading_desc = [
     <ul>
-        <li>The Restaurant at the End of the Universe</li>
-        <li>On the Road</li>
-        <li>I, Robot</li>
-        <li>The Halloween Tree</li>
-        <li>Ghost Story</li>
+        <li>Life, The Universe and Everything <em>by Douglas Adams</em></li>
+        <li>The Complete Robot <em>by Isaac Asimov</em></li>
+        <li>Ghost Story <em>by Peter Straub</em></li>
+        <li>Disappearance at Devil's Rock <em>by Paul Tremblay</em></li>
+        <li>The Invisibles <em>by Grant Morrison</em></li>
     </ul>
 ]
 
 
 const learning_desc = [
     <ul>
-        <li>Compilers (PL0)</li>
-        <li>Solditity (Ethereum)</li>
+        <li>Inline Skating</li>
         <li>ReactJs</li>
         <li>Electric Guitar</li>
         <li>Pixel Art</li>
-        <li>... to love again</li>
-        <li>Roller Skating</li>
+        <li>C</li>
+
     </ul>
 ]
 
@@ -78,9 +77,9 @@ const work_desc = [
 
 const hobbies_desc = [
     <ul>
+        <li>Inline Skating</li>
         <li>DIY Projects</li>
         <li>Rewatching Doctor Who</li>
-        <li>Travelling</li>
         <li>Writing</li>
         <li>Horror Movies</li>
         <li>Video Games</li>
@@ -90,22 +89,13 @@ const hobbies_desc = [
 
 const awards_desc = [
     <ul>
-        <li>Dean’s Commendation of Academic Excellence <em>2019</em></li>
+        <li>Dean’s Commendation for Academic Excellence <em>2020, Sem 1</em></li>
+        <li>Dean’s Commendation for Academic Excellence <em>2019, Sem 2</em></li>
         <li>QCAA Certificate of Academic Commendation <em>2016</em></li>
         <li>OP 2 <em>2016</em></li>
         <li>Academic Honours <em>2016</em></li>
         <li>Top Student: IT <em>2016</em></li>
         <li>Top Student: Philosophy <em>2016</em></li>
-    </ul>
-]
-
-const about_desc = [
-    <ul>
-        <li>4th Year Engineering Student</li>
-        <li>Software Extended Major</li>
-        <li>Brisbane-based</li>
-        <li>GPA: 6.22</li>
-        <li>Course Completion: 38/60 units</li>
     </ul>
 ]
 
@@ -120,8 +110,6 @@ const item_descriptions = [
     awards_desc,
     hobbies_desc,
     academic_desc,
-
-    about_desc,
 ]
 
 export default item_descriptions

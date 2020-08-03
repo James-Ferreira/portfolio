@@ -29,22 +29,13 @@ html{
 }
 
 em {
-  color: var(--light-yellow-colour);
+  color: var(--light-slate-colour);
   font-style: normal;
 }
 
 img {
   max-width: 100%;
   height: auto;
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none;
 }
 
 a{
@@ -96,12 +87,13 @@ a:hover {
 
 .wrapper_left_branch{
   position: absolute;
-  margin-top: 2rem;
   left: 0;
+  margin-right: 50%;
 }
 
 .wrapper_right_branch{
   position: absolute;
+  margin-left: 50%;
   right: 0;
 }
 
@@ -134,9 +126,12 @@ a:hover {
 @media (max-width: 730px){
 
   #app-home-wrapper{
-    min-height: 55rem;
+    min-height: 45rem;
   }
 
+  .page{
+    min-height: 45rem;
+  }
 
   #contact{
     min-height: 30rem;

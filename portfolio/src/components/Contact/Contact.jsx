@@ -17,7 +17,9 @@ export default class Contact extends Component {
                 </div>
 
                 <div class="link_icon" id ="card_email">
-                    <img src={Email}/>
+                    <a href="mailto:jameswferreira@gmail.com">
+                        <img src={Email}/>
+                    </a>
                 </div>
 
                 <div class="link_icon" id ="card_github">

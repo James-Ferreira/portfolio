@@ -9,7 +9,7 @@ const topoguard_desc = {
     desc:
     [<ul>
         <li>
-            Focus on security vulnerabilities within Software-defined Networking
+            Focued on security vulnerabilities within Software-defined Networking
             caused by the current implementation of topology discover
             (LLDP packet forwarding)
         </li>
