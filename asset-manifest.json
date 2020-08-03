@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3136004f.chunk.css",
+    "main.css": "/portfolio/static/css/main.31ec40db.chunk.css",
     "main.js": "/portfolio/static/js/main.54caea1a.chunk.js",
     "main.js.map": "/portfolio/static/js/main.54caea1a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
@@ -8,9 +8,9 @@
     "static/js/2.0e32c6ac.chunk.js": "/portfolio/static/js/2.0e32c6ac.chunk.js",
     "static/js/2.0e32c6ac.chunk.js.map": "/portfolio/static/js/2.0e32c6ac.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.0324bd475729e5e8883e1f710561e8e9.js": "/portfolio/precache-manifest.0324bd475729e5e8883e1f710561e8e9.js",
+    "precache-manifest.455c24a9325f80c90410b620be89eac0.js": "/portfolio/precache-manifest.455c24a9325f80c90410b620be89eac0.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.3136004f.chunk.css.map": "/portfolio/static/css/main.3136004f.chunk.css.map",
+    "static/css/main.31ec40db.chunk.css.map": "/portfolio/static/css/main.31ec40db.chunk.css.map",
     "static/js/2.0e32c6ac.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0e32c6ac.chunk.js.LICENSE.txt",
     "static/media/Bumble-Logo.png": "/portfolio/static/media/Bumble-Logo.32b68559.png",
     "static/media/InputMono-Regular.ttf": "/portfolio/static/media/InputMono-Regular.c8f35daa.ttf",
@@ -49,7 +49,7 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/js/2.0e32c6ac.chunk.js",
-    "static/css/main.3136004f.chunk.css",
+    "static/css/main.31ec40db.chunk.css",
     "static/js/main.54caea1a.chunk.js"
   ]
 }
