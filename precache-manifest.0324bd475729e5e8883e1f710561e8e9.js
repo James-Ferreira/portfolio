@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "72b0d58ca0b8e3af52ad9702a09975da",
+    "revision": "2695b6924db8ee2f6ade7a20efbf39e3",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "1cb55b792430ad429bf9",
-    "url": "/portfolio/static/css/main.a8476f2f.chunk.css"
+    "revision": "9c61ea5e0e32bca7acd2",
+    "url": "/portfolio/static/css/main.3136004f.chunk.css"
   },
   {
     "revision": "67e4f264275bbc223151",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.0e32c6ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1cb55b792430ad429bf9",
-    "url": "/portfolio/static/js/main.853d6e70.chunk.js"
+    "revision": "9c61ea5e0e32bca7acd2",
+    "url": "/portfolio/static/js/main.54caea1a.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
   },
   {
-    "revision": "86fa44a22a6394132304544d6e2efc22",
-    "url": "/portfolio/static/media/Bumble-Logo.86fa44a2.png"
+    "revision": "32b68559902136af0389d6dc76001fe5",
+    "url": "/portfolio/static/media/Bumble-Logo.32b68559.png"
   },
   {
     "revision": "c8f35daa05d411916abd4de0e16a62dc",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/border-card.84a96faf.png"
   },
   {
-    "revision": "844ecde4b5d80a4a9780a91b4ed315c1",
-    "url": "/portfolio/static/media/border-card2.844ecde4.png"
+    "revision": "c894e36c68731b319c3c0bf479466cc8",
+    "url": "/portfolio/static/media/border-card2.c894e36c.png"
   },
   {
     "revision": "ce02e864a83b2971c6f933ef182782f0",
@@ -60,12 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/dither_tile_test.41dc3af0.png"
   },
   {
-    "revision": "80fe6fdd5e78ecf415c86ffca7b85562",
-    "url": "/portfolio/static/media/email.80fe6fdd.png"
+    "revision": "774bd1b3db6dd47a6e7ac065962c8691",
+    "url": "/portfolio/static/media/email.774bd1b3.png"
   },
   {
-    "revision": "c9cf614b3728d3c235d601a25b2d069e",
-    "url": "/portfolio/static/media/git.c9cf614b.png"
+    "revision": "7a6d7568c6fb053107bc808bb55ed255",
+    "url": "/portfolio/static/media/git.7a6d7568.png"
   },
   {
     "revision": "867162603fa8f314c6fff6e44e579435",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/item_border_hover.4d74d4e3.png"
   },
   {
-    "revision": "c1107dc32943abb3c6d1fd588e594619",
-    "url": "/portfolio/static/media/linked.c1107dc3.png"
+    "revision": "9d029c17b98c990f7c2de65eee574551",
+    "url": "/portfolio/static/media/linked.9d029c17.png"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
@@ -96,12 +96,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/next-tag.aaad7319.png"
   },
   {
-    "revision": "c4ea5f370b01d794cd2ee05bcf2a384c",
-    "url": "/portfolio/static/media/pixel-about.c4ea5f37.png"
+    "revision": "581fe8b8b898a9fd9acd3ae5a6dd103d",
+    "url": "/portfolio/static/media/pixel-about.581fe8b8.png"
   },
   {
-    "revision": "963654dcac99c7e2b2ed22e94d030d5e",
-    "url": "/portfolio/static/media/pixel-addr.963654dc.png"
+    "revision": "919c94463c1dec5734cef4f43754c954",
+    "url": "/portfolio/static/media/pixel-addr.919c9446.png"
   },
   {
     "revision": "275d2f1bfcfc09bffb3603fb52f41241",
@@ -112,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/pixel-book.ae844002.png"
   },
   {
-    "revision": "2c6d296dd1178af9e8e2dab0f9fd39b6",
-    "url": "/portfolio/static/media/pixel-contact.2c6d296d.png"
+    "revision": "3d688f0c07698fdb6f3a3f9b341dcb65",
+    "url": "/portfolio/static/media/pixel-contact.3d688f0c.png"
   },
   {
     "revision": "c305b0b1fa1fe33cb9b6384c4251e7e2",
@@ -128,16 +128,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/pixel-mug.bccea998.png"
   },
   {
-    "revision": "cb6d699eecd0a3feed9fa5550b808b94",
-    "url": "/portfolio/static/media/pixel-name.cb6d699e.png"
+    "revision": "6f9f6457a156e669bca8ffe7d628ce52",
+    "url": "/portfolio/static/media/pixel-name.6f9f6457.png"
   },
   {
     "revision": "6750fcb4aa4e5cf1853a5f72482a4f48",
     "url": "/portfolio/static/media/pixel-profile.6750fcb4.png"
   },
   {
-    "revision": "f987d81425565c673df7fd2c2cfa980f",
-    "url": "/portfolio/static/media/pixel-projects.f987d814.png"
+    "revision": "c1398649a14808e39d274bae7690feca",
+    "url": "/portfolio/static/media/pixel-projects.c1398649.png"
   },
   {
     "revision": "f7ef50b76fe464328ed8fdcb86d62586",
